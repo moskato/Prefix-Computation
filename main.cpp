@@ -27,7 +27,7 @@ int main()
     list <int>::iterator temp; // Puntero auxiliar.
     temp=ylist.begin();
     temp++; // Puntero auxiliar apunta a "y[next[i]], i=1,-> y[2]".
-    nexti=ylist.begin(); //next[1]=x[1].
+    nexti=ylist.begin(); //next[1]=y[1].
     for(int i=0;i<xlist.size();i++)
     {
        *temp=(*nexti)*(*temp); // y[next[i]]=y[i]*y[next[i]].
